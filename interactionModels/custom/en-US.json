@@ -1,0 +1,42 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "FrasesIntent",
+          "samples": [
+            "tell me about Messi",
+            "Messi fact",
+            "I want to hear a Messi fact",
+            "tell me something about Messi",
+            "give me a Messi fact",
+            "tell me a curiosity about Messi"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "messi curiosities"
+    }
+  }
+}
